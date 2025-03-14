@@ -18,14 +18,21 @@ public class Telefone {
         this.num_serie = num_serie;
         this.modelo = modelo;
         this.peso = peso;
-        this.dimensao = dimensao;
-    
-    
-    
-    
-        
-        
+        this.dimensao = dimensao;    
     }
     
+    
+    public void printall(){
+        System.out.println(
+                    "\n"+
+                    "codigo: ---------- " + this.codigo +"\n"+
+                    "Numero de serie: - " + this.num_serie +"\n"+
+                    "Modelo: ---------- " + this.modelo +"\n"+
+                    "Peso: ------------ Kg " + this.peso +"\n"+
+                    "Dimensao: -------- cm " + this.dimensao + "\n"
+                );
+    }
+
+ 
             
 }
